@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server/server.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/kathrynherod/YoctoHub#readme",
   "dependencies": {
-    "body-parser": "^1.18.2",
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "path": "^0.12.7",
+    "ws": "^5.1.1",
+    "yoctolib-es2017": "^1.10.30378"
   }
 }
