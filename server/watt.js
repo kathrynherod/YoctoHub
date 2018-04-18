@@ -32,7 +32,6 @@ async function startDemo()
     }
     console.log('Using device '+serial);
     power = YPower.FindPower(serial+".power");
-    voltage = YVoltage1.FindVoltage(serial+".power");
 
     refresh();
 }
