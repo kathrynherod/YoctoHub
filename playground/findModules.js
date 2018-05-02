@@ -9,7 +9,7 @@ async function startDemo()
 
     // Setup the API to use the VirtualHub on local machine
     let errmsg = new YErrorMsg();
-    if (await YAPI.RegisterHub(process.env.YOCTO_USER+'@192.168.1.164', errmsg) != YAPI.SUCCESS) {
+    if (await YAPI.RegisterHub('user:Richards1301@192.168.1.164', errmsg) != YAPI.SUCCESS) {
         console.log('Cannot contact VirtualHub on 127.0.0.1');
         return;
     }
